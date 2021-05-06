@@ -1,0 +1,6 @@
+framework module Pods_YukiValue_Tests {
+  umbrella header "Pods-YukiValue_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

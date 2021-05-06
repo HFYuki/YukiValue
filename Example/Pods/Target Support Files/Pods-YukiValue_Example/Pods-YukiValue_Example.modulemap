@@ -1,0 +1,6 @@
+framework module Pods_YukiValue_Example {
+  umbrella header "Pods-YukiValue_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

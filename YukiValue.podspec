@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/792115885@qq.com/YukiValue'
+  s.homepage         = 'https://github.com/HFYuki/YukiValue'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '792115885@qq.com' => '792115885@qq.com' }
-  s.source           = { :git => 'https://github.com/792115885@qq.com/YukiValue.git', :tag => s.version.to_s }
+  s.author           = { 'Simple' => '792115885@qq.com' }
+  s.source           = { :git => 'https://github.com/HFYuki/YukiValue.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'YukiValue/Classes/**/*'
-  
+  s.swift_version = ['4.0', '4.2', '5.0', '5.1']
+  s.frameworks = 'Foundation'
   # s.resource_bundles = {
   #   'YukiValue' => ['YukiValue/Assets/*.png']
   # }

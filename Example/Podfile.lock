@@ -1,0 +1,16 @@
+PODS:
+  - YukiValue (0.1.0)
+
+DEPENDENCIES:
+  - YukiValue (from `../`)
+
+EXTERNAL SOURCES:
+  YukiValue:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YukiValue: b1eed829464cd490489444a082b040ec4833b3f9
+
+PODFILE CHECKSUM: d5ccf47189578be7e32bcb42ef730c23aedab0a1
+
+COCOAPODS: 1.10.1
